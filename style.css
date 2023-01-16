@@ -118,6 +118,10 @@ main{
 #princArticoli{
 margin-top:0;
 line-height: 1.5em;
+display: flex;
+justify-content: space-evenly;
+margin: 0 auto;
+max-width: 2020px;
 }
 .articolo{
  display: flex;
@@ -125,6 +129,8 @@ line-height: 1.5em;
   margin:2em;
   padding-top:0;
   box-sizing: border-box;
+  width: 30%;
+
 }
 .princArtic{
     display: flex;
